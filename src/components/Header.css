@@ -1,0 +1,58 @@
+.header {
+  background-color: white;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd; /* Línea divisoria gris */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  height: 15px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin-top: 13px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 15px;
+  font-weight: 300; /* Thin */
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.nav-item a {
+  color: inherit; /* Usa el color heredado */
+  text-decoration: none; /* Elimina el subrayado */
+}
+
+.nav-item.logo img {
+  width: 24px;
+  height: auto;
+}
+
+.nav-item.search-icon img,
+.nav-item.bag-icon img {
+  width: 16px;
+  height: auto;
+}
+
+.nav-item:hover {
+  color: #0071e3; /* Color azul de Apple en hover */
+}

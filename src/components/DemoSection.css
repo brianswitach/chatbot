@@ -1,0 +1,112 @@
+.demo-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #e0dede; /* Fondo de la sección */
+  }
+  
+  .demo-title {
+    font-size: 3em; /* Aumenta el tamaño del texto */
+    margin-bottom: 40px;
+    color: #ff7e5f; /* Mismo color que "Respuestas Inmediatas" */
+  }
+  
+  .subscription-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los recuadros */
+  }
+  
+  .subscription-card {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    position: relative;
+    border: 2px solid white; /* Borde blanco */
+    margin-left: 165px;
+    margin-right: 165px;
+    transition: transform 0.3s ease; /* Transición para agrandar/achicar */
+  }
+  
+  .subscription-card:hover {
+    transform: scale(1.05); /* Agranda el recuadro al pasar el cursor */
+  }
+  
+  .subscription-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .subscription-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: left;
+  }
+
+  .subscription-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: left;
+    margin-top: 25px;
+  }
+  
+  .subscription-card li {
+    margin-bottom: 8px;
+  }
+  
+  .subscription-card .discount {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    color: #222;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .subscription-card .discount {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    color: #222;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .price {
+    font-size: 1.8em; /* Un poco más grande */
+    color: white; /* Color blanco */
+    font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; /* Mismo tipo de letra que las opciones del header */
+  }
+  
+  .subscribe-btn {
+    background-color: #18972d; /* Color vibrante para destacar */
+    color: #4f0909; /* Color negro para el texto */
+    padding: 12px 24px; /* Aumenta el padding para hacerlo más grande */
+    border: 1px solid #fff; /* Borde blanco más grueso */
+    border-radius: 8px; /* Esquinas más redondeadas */
+    cursor: pointer;
+    margin-top: 20px;
+    width: 170px; /* Ancho aumentado */
+    font-weight: bold; /* Hace el texto en negrita */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+    font-weight: 300;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: #39D353; /* Verde más vibrante */
+    color: #4f0909; /* Cambia la letra a blanco */
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    font-weight: 300;
+}
+
+  
+  
