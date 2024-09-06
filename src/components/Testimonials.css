@@ -1,65 +1,86 @@
 .testimonials-section {
-    padding: 50px;
-    text-align: center;
-  }
-  
-  .testimonials-title {
-    font-size: 2em;
-    color: #333;
-    margin-bottom: 30px;
-  }
-  
+  padding: 50px;
+  text-align: center;
+}
+
+.testimonials-title {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.testimonials-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+}
+
+.testimonial-stars {
+  color: #FDB241;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.testimonial-name {
+  font-size: 1em;
+  font-weight: bold;
+  color: #333;
+}
+
+.testimonial-role {
+  font-size: 0.9em;
+  color: #888;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
   .testimonials-cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+      flex-direction: column;
+      align-items: center;
   }
-  
+
   .testimonial-card {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    transition: transform 0.3s ease;
+      width: 100%; /* Makes the cards take full width on mobile */
+      max-width: 90%; /* Adds a small margin */
+      margin-bottom: 20px;
   }
-  
-  .testimonial-card:hover {
-    transform: translateY(-10px);
+
+  .testimonials-title {
+      font-size: 1.5em; /* Reduces the font size for smaller screens */
   }
-  
-  .testimonial-stars {
-    color: #FDB241;
-    font-size: 1.2em;
-    margin-bottom: 15px;
-  }
-  
+
   .testimonial-text {
-    font-size: 1em;
-    color: #555;
-    margin-bottom: 20px;
+      font-size: 0.9em; /* Reduces text size for mobile */
   }
-  
-  .testimonial-author {
-    display: flex;
-    align-items: center;
-  }
-  
-  .testimonial-avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 15px;
-  }
-  
-  .testimonial-name {
-    font-size: 1em;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .testimonial-role {
-    font-size: 0.9em;
-    color: #888;
-  }
-  
+}

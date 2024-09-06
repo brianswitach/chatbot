@@ -4,16 +4,30 @@
     padding: 20px;
     text-align: center;
     width: 100%;
-  }
-  
-  .letra {
-    font-family: 'Dancing Script', cursive; /* Muy cursiva */
+}
+
+.letra {
+    font-family: 'Dancing Script'; /* Muy cursiva */
     font-size: 1.2em;
     color: white;
-  }
-  
-  .footer-bottom {
+}
+
+.footer-bottom {
     padding-top: 10px;
     font-size: 0.9em;
-  }
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+    .letra {
+        font-size: 1em; /* Reduce el tamaño de la fuente en pantallas pequeñas */
+    }
   
+    .footer-bottom {
+        font-size: 0.8em; /* Reduce el tamaño del texto del footer */
+    }
+  
+    .footer {
+        padding: 15px; /* Reduce el padding para dispositivos móviles */
+    }
+}
