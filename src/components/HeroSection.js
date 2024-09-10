@@ -47,8 +47,9 @@ function HeroSection() {
             font-size: 14px; /* Ajusta según el tamaño que desees */
             font-weight: 300; /* Thin */
             color: #333; /* Color igual al del texto en el header */
-            margin-top: 10px;
-            margin-bottom: 10px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+
           }
 
           .btn-primary {
@@ -94,7 +95,7 @@ function HeroSection() {
          Más Ventas
       </motion.p>
 
-      <button className="btn-primary">Ver Demo</button>
+      
     </motion.div>
   );
 }

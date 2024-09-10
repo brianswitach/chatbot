@@ -1,7 +1,7 @@
 .demo-section {
     padding: 40px;
     text-align: center;
-    background-color: #e0dede; /* Fondo de la sección */
+    background-color: #eef2f5; /* Fondo de la sección */
   }
   
   .demo-title {
@@ -9,7 +9,7 @@
     margin-bottom: 40px;
     color: #ff7e5f; /* Mismo color que "Respuestas Inmediatas" */
   }
-  
+ 
   .subscription-cards {
     display: flex;
     justify-content: center;
@@ -25,9 +25,10 @@
     width: 400px;
     position: relative;
     border: 2px solid white; /* Borde blanco */
-    margin-left: 165px;
-    margin-right: 165px;
+    margin-left: 80px;
+    margin-right: 80px;
     transition: transform 0.3s ease; /* Transición para agrandar/achicar */
+
   }
   
   .subscription-card:hover {
